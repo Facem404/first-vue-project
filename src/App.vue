@@ -1,6 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld2 from './components/HelloWorld2.vue'
+
 </script>
 
 <template>
@@ -15,6 +17,13 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <footer>
+    <HelloWorld/>
+    <HelloWorld/>
+    <HelloWorld2/>
+    <HelloWorld2/>
+  </footer>
 </template>
 
 <style scoped>
